@@ -1,19 +1,11 @@
 {
-
-   "version": 2,
-
-   "name": "trackeazy_backend",
-
-   "builds": [
-
-      { "src": "index.js", "use": "@vercel/node" }
-
-   ],
-
-   "routes": [
-
-      { "src": "/(.*)", "dest": "/" }
-
-   ]
-
+  "version": 2,
+  "name": "trackeazy_backend",
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/data", "dest": "/api/data.js" },
+    { "src": "/get-sheet-data", "dest": "/api/get-sheet-data.js" }
+  ]
 }
