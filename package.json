@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "googleapis": "^153.0.0",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  },
+  "name": "backend_app",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
